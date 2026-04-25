@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Pressed state: button looks "pushed in" -->
+    <item android:state_pressed="true">
+        <layer-list>
+            <item android:left="2dp" android:top="2dp">
+                <shape>
+                    <corners android:radius="14dp" />
+                    <solid android:color="#40FFFFFF" />
+                    <stroke android:width="1dp" android:color="#80FFFFFF" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+    <!-- Default state: 3D effect with shadow and glass gradient -->
+    <item>
+        <layer-list>
+            <!-- Bottom-right shadow for 3D depth -->
+            <item android:left="4dp" android:top="4dp">
+                <shape>
+                    <corners android:radius="14dp" />
+                    <solid android:color="#88000000" />
+                </shape>
+            </item>
+
+            <!-- Main Glassy body -->
+            <item android:bottom="4dp" android:right="4dp">
+                <shape>
+                    <corners android:radius="14dp" />
+                    <gradient
+                        android:angle="135"
+                        android:startColor="#80FFFFFF"
+                        android:centerColor="#40FFFFFF"
+                        android:endColor="#20FFFFFF" />
+                    <stroke android:width="1.5dp" android:color="#B3FFFFFF" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

@@ -1,0 +1,21 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+plugins {
+    id 'com.android.application' version '9.1.0' apply false
+    id 'com.android.library' version '9.1.0' apply false
+}
+
+// Redirect build directory to avoid OneDrive sync issues and AccessDeniedException
+allprojects {
+    buildDir = "D:/GradleBuilds/${rootProject.name}/${project.name}"
+}
+
+tasks.register('clean', Delete) {
+    delete rootProject.buildDir
+}
+
+// Alias to allow running 'gradle app' to build the debug APK
+tasks.register('app') {
+    dependsOn ':app:assembleDebug'
+    group = 'build'
+    description = 'Builds the debug APK'
+}

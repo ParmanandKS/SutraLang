@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_zoom_in"
+        android:title="Zoom In"
+        android:icon="@drawable/ic_plus"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_zoom_out"
+        android:title="Zoom Out"
+        android:icon="@drawable/ic_minus"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_theme"
+        android:title="Theme"
+        android:icon="@drawable/ic_sun"
+        app:showAsAction="always" />
+</menu>

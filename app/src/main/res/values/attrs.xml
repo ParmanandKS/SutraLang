@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="editorBackground" format="color" />
+    <attr name="editorTextColor" format="color" />
+    <attr name="editorHintColor" format="color" />
+    <attr name="outputBackground" format="color" />
+    <attr name="outputTextColor" format="color" />
+</resources>

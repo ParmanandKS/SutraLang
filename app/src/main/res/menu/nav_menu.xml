@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_var"
+        android:title="@string/menu_var" />
+    <item
+        android:id="@+id/menu_if"
+        android:title="@string/menu_if" />
+    <item
+        android:id="@+id/menu_else_if"
+        android:title="@string/menu_else_if" />
+    <item
+        android:id="@+id/menu_else"
+        android:title="@string/menu_else" />
+    <item
+        android:id="@+id/menu_loop"
+        android:title="@string/menu_while" />
+    <item
+        android:id="@+id/menu_for"
+        android:title="@string/menu_for" />
+    <item
+        android:id="@+id/menu_files"
+        android:title="My Files" />
+    <item
+        android:id="@+id/menu_about"
+        android:title="About" />
+</menu>

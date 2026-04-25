@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SutraLang IDE</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="msg_no_code_error">Kuch likho toh sahi!</string>
+    <string name="msg_error_prefix">Error: %s</string>
+    <string name="dialog_title_save">Save File</string>
+    <string name="dialog_msg_filename">Enter filename</string>
+    <string name="btn_save_dialog">Save</string>
+    <string name="msg_file_saved_success">File %s saved!</string>
+    <string name="msg_save_failed">Save fail ho gaya!</string>
+    <string name="msg_enter_filename">Filename toh dalo!</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="menu_var">Ek Dibba</string>
+    <string name="menu_if">Agar</string>
+    <string name="menu_else_if">Nahi To</string>
+    <string name="menu_else">Varna</string>
+    <string name="menu_while">Jab Tak (Loop)</string>
+    <string name="menu_for">Ginti (Loop)</string>
+    <string name="template_variable">rakho naam = \"duniya\";</string>
+    <string name="template_if">agar (sahi) {\n    // Code yahan likho\n}</string>
+    <string name="template_else_if">nahi to (sahi) {\n    // Code yahan likho\n}</string>
+    <string name="template_else">varna {\n    // Code yahan likho\n}</string>
+    <string name="template_while">jabtak (sahi) {\n    // Code yahan likho\n}</string>
+    <string name="template_for">i = 0 se 10 tak {\n    // Code yahan likho\n}</string>
+    <string name="msg_running">Chalu ho raha hai...</string>
+    <string name="error_prefix">❌ Error: %s</string>
+
+    <!-- <string name="template_while">jabtak (sahi) {\n // Code yahan likho\n}</string> -->
+
+    <!-- <string name="template_for">i = 0 se 10 tak {\n // Code yahan likho\n}</string> -->
+</resources>
